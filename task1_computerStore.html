@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='computerStore.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+
+    <div id="page">
+
+        <div id="upperBar">
+            <div>
+                <h2 id="barName">Computer Store</h2>
+            </div>
+        </div>
+
+        <div id="topSpace"></div>
+
+        <div id="bank">
+            <h3 id="bankHeader">Joe Banker</h3>
+            <p id="balance">Balance:</p>
+            <p id="balanceAmount">0 Kr.</p>
+            <p id="outStdText">Outstanding loan:</p>
+            <p id="outStdAmount">0 Kr.</p>
+            <div id="loanButton">
+                <button id="getLoan" onclick="getLoan()">Get a loan</button>
+            </div>
+        </div>
+
+        <div id="work">
+            <h3 id="workHeader">Work</h3>
+            <p id="pay">Pay:</p>
+            <p id="workAmount">0 Kr.</p>
+            <div class="buttons">
+                <button id="tranferMoney" onclick="transferMoney()">Bank</button>
+                <button id="doWork" onclick="doWork()">Work</button>
+                <button id="rePay" onclick="rePay()">Repay</button>
+            </div>
+
+        </div>
+
+        <div id="lapTops">
+            <h3 id="laptopHeader">Laptops</h3>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a onclick="test()">About</a>
+                    <a onclick="test2()">About</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+
+            <p>Features:</p>
+
+
+
+            <p id="testi">testi hävitys</p>
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <script src="computerStore.js"></script>
+</body>
+
+</html>

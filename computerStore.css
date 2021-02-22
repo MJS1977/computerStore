@@ -38,40 +38,42 @@
 }
 
 #balance {
-    padding: 15px;
-    text-align: left;
-    max-width: 60px;
+    position: absolute;
+    left:212px;  
+    top: 200px;
     display: inline-block;
     vertical-align: middle
 }
 
 #balanceAmount {
-    position: relative;
-    right: -95px;
-    max-width: 60px;
+    position: absolute;
+    left:390px;  
+    top: 200px;
     display: inline-block;
     vertical-align: middle
 }
 
 #outStdText {
-    margin-left: 15px;   
+    position: absolute;
+    left:212px;  
+    top: 230px;
     display: inline-block;
     vertical-align: middle
-    
 }
 
 #outStdAmount { 
-    position: relative;
-    right: -50px;
+    position: absolute;
+    top: 230px;
+    left: 390px;
     display: inline-block;
     vertical-align: middle
 }
 
 #loanButton {    
-    display: table;
-  margin: 0 auto;
-
-}
+    position: absolute;
+    top: 310px;
+    left: 290px;  
+  }
 
 #work {
     position: relative;
@@ -81,7 +83,6 @@
     border-radius: 10px;
     display: inline-block;
     vertical-align: middle
-     
 }
 
 #workHeader {
@@ -89,25 +90,25 @@
 }
 
 #pay {
-    padding: 15px;
-    text-align: left;
-    max-width: 60px;
+    position: absolute;
+    left:15px;  
+    top: 92px;
     display: inline-block;
     vertical-align: middle
 }
 
 #workAmount {
-    position: relative;
-    right: -95px;
-    max-width: 60px;
+    position: absolute;
+    left:195px;  
+    top: 92px;
     display: inline-block;
     vertical-align: middle
 }
 
 .buttons {
     position:absolute;
-    left: 15px;
-    bottom:0px;   
+    left: 60px;
+    top: 202px;
 }
 
 #lapTops {
@@ -120,7 +121,23 @@
     vertical-align: middle
 }
 
+#laptopHeader {
+    position: absolute;
+    left:15px;  
+    top: 15px;
+}
 
+#featuresHeader {
+    position: absolute;
+    left:15px;  
+    top: 95px;
+}
+
+#features {
+    position: absolute;
+    left:15px;  
+    top: 120px;
+}
 
 
 .dropbtn {
@@ -137,8 +154,9 @@
   }
   
   .dropdown {
-    position: relative;
-    display: inline-block;
+    position: absolute;
+    left:130px;  
+    top: 40px;
   }
   
   .dropdown-content {
